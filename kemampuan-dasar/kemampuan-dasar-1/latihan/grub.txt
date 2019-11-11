@@ -1,0 +1,4 @@
+Ubuntu
+Advanced options for Ubuntu
+Windows Boot Manager (on /dev/sda1)
+System setup

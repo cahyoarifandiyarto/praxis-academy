@@ -1,0 +1,400 @@
+cahyo@Cahyo:~$ ls
+composer-setup.php  Dev        Downloads         Music     Public  Templates
+Desktop             Documents  examples.desktop  Pictures  snap    Videos
+
+cahyo@Cahyo:~$ ls -a
+.                   .config           .IdeaIC2019.2   .profile
+..                  .dbus             .java           Public
+.android            Desktop           .local          .quokka
+.bash_history       Dev               .mozilla        snap
+.bash_logout        Documents         Music           .ssh
+.bashrc             Downloads         .mysql_history  .sudo_as_admin_successful
+.cache              examples.desktop  .npm            Templates
+.composer           .gnupg            Pictures        Videos
+composer-setup.php  .ICEauthority     .pki            .vscode
+
+
+cahyo@Cahyo:~/Dev$ cat > contoh
+Contoh
+cahyo@Cahyo:~/Dev$ cat contoh
+Contoh
+cahyo@Cahyo:~/Dev$ cat > contoh2
+Contoh2
+cahyo@Cahyo:~/Dev$ cat contoh contoh2 > sample
+cahyo@Cahyo:~/Dev$ cat sample
+Contoh
+Contoh2
+
+
+cahyo@Cahyo:~/Dev$ ls
+contoh  contoh2  Dumbways  praxis-academy  reacthooks  sample
+cahyo@Cahyo:~/Dev$ rm sample contoh contoh2
+cahyo@Cahyo:~/Dev$ ls
+Dumbways  praxis-academy  reacthooks
+
+
+cahyo@Cahyo:~$ cat > contoh
+Contoh
+cahyo@Cahyo:~$ ls
+composer-setup.php  Dev        examples.desktop  Public     Videos
+contoh              Documents  Music             snap
+Desktop             Downloads  Pictures          Templates
+cahyo@Cahyo:~$ sudo mv contoh /home/cahyo/Dev
+cahyo@Cahyo:~$ ls
+composer-setup.php  Dev        Downloads         Music     Public  Templates
+Desktop             Documents  examples.desktop  Pictures  snap    Videos
+cahyo@Cahyo:~$ cd Dev
+cahyo@Cahyo:~/Dev$ ls
+contoh  Dumbways  praxis-academy  reacthooks
+
+
+cahyo@Cahyo:~/Dev$ ls
+contoh  Dumbways  praxis-academy  reacthooks
+cahyo@Cahyo:~/Dev$ mkdir dir1
+cahyo@Cahyo:~/Dev$ ls
+contoh  dir1  Dumbways  praxis-academy  reacthooks
+
+cahyo@Cahyo:~/Dev$ ls
+contoh  dir1  Dumbways  praxis-academy  reacthooks
+cahyo@Cahyo:~/Dev$ rmdir dir1
+cahyo@Cahyo:~/Dev$ ls
+contoh  Dumbways  praxis-academy  reacthooks
+
+cahyo@Cahyo:~/Dev$ mkdir dir1
+cahyo@Cahyo:~/Dev$ ls
+contoh  dir1  Dumbways  praxis-academy  reacthooks
+cahyo@Cahyo:~/Dev$ mv dir1 dirnew
+cahyo@Cahyo:~/Dev$ ls
+contoh  dirnew  Dumbways  praxis-academy  reacthooks
+
+cahyo@Cahyo:~/Dev$ man man
+MAN(1)                        Manual pager utils                        MAN(1)
+
+NAME
+       man - an interface to the on-line reference manuals
+
+SYNOPSIS
+       man  [-C  file]  [-d]  [-D]  [--warnings[=warnings]]  [-R encoding] [-L
+       locale] [-m system[,...]] [-M path] [-S list]  [-e  extension]  [-i|-I]
+       [--regex|--wildcard]   [--names-only]  [-a]  [-u]  [--no-subpages]  [-P
+       pager] [-r prompt] [-7] [-E encoding] [--no-hyphenation] [--no-justifi‐
+       cation]  [-p  string]  [-t]  [-T[device]]  [-H[browser]] [-X[dpi]] [-Z]
+       [[section] page[.section] ...] ...
+       man -k [apropos options] regexp ...
+       man -K [-w|-W] [-S list] [-i|-I] [--regex] [section] term ...
+       man -f [whatis options] page ...
+       man -l [-C file] [-d] [-D] [--warnings[=warnings]]  [-R  encoding]  [-L
+       locale]  [-P  pager]  [-r  prompt]  [-7] [-E encoding] [-p string] [-t]
+       [-T[device]] [-H[browser]] [-X[dpi]] [-Z] file ...
+       man -w|-W [-C file] [-d] [-D] page ...
+       man -c [-C file] [-d] [-D] page ...
+       man [-?V]
+
+DESCRIPTION
+
+
+cahyo@Cahyo:~/Dev$ history
+    1  man sudo_root
+    2  ls
+    3  cd Downloads/
+    4  ls
+    5  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    6  cd ../
+    7  sudo apt update
+    8  sudo apt install software-properties-common apt-transport-https wget
+    9  sudo apt-get install curl
+   10  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+   11  sudo apt-get install curl
+   12  ls
+   13  mkdir Dev
+   14  ls
+   15  cd De
+   16  cd Dev/
+   17  cd ..
+   18  sudo apt-get install nodejs
+   19  node -v
+   20  npm -v
+   21  sudo apt update
+   22  sudo apt install mysql-server
+   23  sudo mysql_secure_installation
+   24  sudo mysql
+   25  mysql -u root -p
+   26  sudo mysql
+   27  systemctl status mysql.service
+   28  sudo mysqladmin -p -u root version
+   29  sudo mysql
+   30  sudo apt update
+   31  sudo apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+   32  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   33  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+   34  sudo apt update
+   35  sudo apt install docker-ce
+   36  apt list -a docker-ce
+   37  sudo apt-mark hold docker-ce
+   38  sudo systemctl status docker
+   39  sudo usermod -aG docker $USER
+   40  docker container run hello-world
+   41  sudo usermod -aG docker $USER
+   42  docker container run hello-world
+   43  sudo groupadd docker
+   44  sudo usermod -aG docker $USER
+   45  sudo apt-get install curl
+   46  docker
+   47  docker run hello-world
+   48  sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+   49  sudo docker ps
+   50  printenv USER
+   51  sudo usermod -aG docker cahyo
+   52  docker
+   53  docker container run hello-world
+   54  sudo docker container run hello-world
+   55  sudo apt update
+   56  sudo apt upgrade
+   57  sudo mysql
+   58  sudo mysqladmin -p -u root version
+   59  cd Dev
+   60  mkdir Enigma
+   61  cd Enigma/
+   62  touch 1.js
+   63  code .
+   64  node 1.js
+   65  node 1.js 
+   66  node 1.js
+   67  cd ../
+   68  sudo mysql
+   69  sudo mysql -u root -p
+   70  cd Dev
+   71  cd Enigma/
+   72  node 1.js
+   73  cd Dev
+   74  composer create-project --prefer-dist laravel/laravel lara-ecommerce
+   75  composer
+   76  cd ../
+   77  sudo snap install intellij-idea-community --classic
+   78  git
+   79  npm i -g create-react-app
+   80  sudo npm i -g create-react-app
+   81  cd Dev
+   82  create-react-app reacthooks
+   83  cd reacthooks/
+   84  code .
+   85  npm start
+   86  sudo npm start
+   87  sudo curl -L "https://github.com/docker/compose/releases/download/1.24.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   88  sudo chmod +x /usr/local/bin/docker-compose
+   89  docker-compose --version
+   90  wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+   91  echo "deb [ arch=amd64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+   92  sudo apt-get update
+   93  sudo apt-get install -y mongodb-org
+   94  sudo apt update
+   95  sudo apt install default-jdk
+   96  java -version
+   97  sudo nano /etc/environment
+   98  source /etc/environment
+   99  echo $JAVA_HOME
+  100  sudo update-alternatives --config java
+  101  sudo apt-get update
+  102  sudo apt-get upgrade
+  103  sudo add-apt-repository ppa:ondrej/php
+  104  sudo apt-get update
+  105  sudo apt-get install apache2 libapache2-mod-php7.2 php7.2 php7.2-xml php7.2-gd php7.2-opcache php7.2-mbstring
+  106  sudo apt-get update
+  107  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  108  COMPOSER=a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1
+  109  php -r "if (hash_file('SHA384', 'composer-setup.php') === '$COMPOSER) { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  110  sudo apt-get install curl php-cli php-mbstring git unzip
+  111  sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+  112  composer --version
+  113  cd Dev
+  114  composer create-project --prefer-dist laravel/laravel lara-ecommerce
+  115  ls
+  116  cd ../
+  117  sudo apt install php7.2-common php7.2-cli php7.2-gd php7.2-mysql php7.2-curl php7.2-intl php7.2-mbstring php7.2-bcmath php7.2-imap php7.2-xml php7.2-zip
+  118  cd Dev
+  119  composer create-project --prefer-dist laravel/laravel laravel-ecommerce
+  120  composer update
+  121  mv composer.phar /usr/local/bin/composer
+  122  cd ../
+  123  mv composer.phar /usr/local/bin/composer
+  124  php composer-setup.php --install-dir=bin --filename=composer
+  125  mv composer.phar /usr/local/bin/composer
+  126  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  127  php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  128  php composer-setup.php
+  129  php -r "unlink('composer-setup.php');"
+  130  composer update
+  131  curl -sS https://getcomposer.org/installer | php
+  132  mv composer.phar /usr/local/bin/composer
+  133  sudo mv composer.phar /usr/local/bin/composer
+  134  curl -sS https://getcomposer.org/installer | php
+  135  sudo mv composer.phar /usr/local/bin/composer
+  136  chmod +x /usr/local/bin/composer
+  137  sudo chmod +x /usr/local/bin/composer
+  138  composer
+  139  composer --version
+  140  sudo mv composer.phar /usr/local/bin/composer
+  141  cd Dev
+  142  composer create-project --prefer-dist laravel/laravel laravel-ecommerce
+  143  ls
+  144  cd ../
+  145  sudo apt-get remove composer
+  146  sudo apt-get remove --auto-remove composer
+  147  sudo apt-get purge composer
+  148  sudo apt-get purge --auto-remove composer
+  149  composer
+  150  sudo apt update
+  151  sudo apt install wget php-cli php-zip unzip
+  152  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  153  HASH="$(wget -q -O - https://composer.github.io/installer.sig)"
+  154  php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  155  sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+  156  cd Dev
+  157  composer create-project --prefer-dist larave/laravel laravel-ecommerce
+  158  composer create-project --prefer-dist laravel/laravel laravel-ecommerce
+  159  composer remove phpunit/phpunit --dev
+  160  cd ../
+  161  composer remove phpunit/phpunit --dev
+  162  composer require phpunit/phpunit --dev
+  163  php --ini
+  164  sudo apt update && sudo apt install wget php-cli php-zip unzip curl
+  165  curl -sS https://getcomposer.org/installer |php
+  166  sudo mv composer.phar /usr/local/bin/composer
+  167  composer global require laravel/installer
+  168  sudo composer global require laravel/installer
+  169  $HOME/.config/composer/vendor/bin
+  170  laravel new ecommerce
+  171  cd ../
+  172  laravel
+  173  export PATH="$HOME/.composer/vendor/bin:$PATH"
+  174  laravel
+  175  cd Deev
+  176  cd Dev
+  177  ls
+  178  cd dev
+  179  cd Dev
+  180  laravel new ecommerce
+  181  laravel
+  182  cd ../
+  183  laravel
+  184  export PATH="$HOME/.composer/vendor/bin:$PATH"
+  185  cd Dev
+  186  laravel
+  187  laravel new ecommerce
+  188  cd ../
+  189  php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+  190  php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  191  php composer-setup.php
+  192  sudo apt-get remove composer
+  193  sudo apt-get remove --auto-remove composer
+  194  sudo apt-get purge composer
+  195  sudo apt-get purge --auto-remove composer
+  196  sudo apt update
+  197  sudo apt install curl php-cli php-mbstring git unzip
+  198  curl -sS https://getcomposer.org/installer -o composer-setup.php
+  199  HASH="$(wget -q -O - https://composer.github.io/installer.sig)"
+  200  php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+  201  sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+  202  composer update
+  203  cd Dev
+  204  ls
+  205  composer create-project --prefer-dist laravel/laravel ecommerce
+  206  sudo apt install php-xml
+  207  cd ../
+  208  sudo apt install php-xml
+  209  cd Dev
+  210  composer create-project --prefer-dist laravel/laravel ecommerce
+  211  cd ecommerce/
+  212  code .
+  213  php artisan make:model Category -m
+  214  php artisan make:model Product -m
+  215  php artisan make:model Customer -m
+  216  php artisan make:model Province -m
+  217  php artisan make:model City -m
+  218  php artisan make:model District -m
+  219  php artisan make:model Order -m
+  220  php artisan make:model OrderDetail -m
+  221  php artisan make:seeder ProvinceTableSeeder
+  222  php artisan make:seeder CityTableSeeder
+  223  php artisan make:seeder DistrictTableSeeder
+  224  php artisan db:seed
+  225  cd ../
+  226  sudo mysql
+  227  sudo mysql -u root -p
+  228  netstat -nl|grep 3306
+  229  sudo apt-get update
+  230  sudo apt-get -y upgrade
+  231  sudo snap install postman
+  232  cd Dev
+  233  ls
+  234  mkdir Dumbways
+  235  cd Dumbways/
+  236  touch 1.js
+  237  code .
+  238  node 1.js
+  239  cd Dev
+  240  cd Dumbways/
+  241  code .
+  242  node 1.js
+  243  cd Dev
+  244  cd Dumbways/
+  245  code .
+  246  node 1.js
+  247  cd Dev
+  248  ls
+  249  mkdir praxis-academy
+  250  cd praxis-academy/
+  251  mkdir kemampuan-dasar
+  252  ls
+  253  cd kemampuan-dasar/
+  254  cd ..
+  255  cd ../
+  256  cd .//
+  257  cd ../
+  258  dpkg --get-selections | grep linux-image
+  259  ls
+  260  cd Dev
+  261  ls -a
+  262  cd ../
+  263  ls -a
+  264  cd Dev
+  265  cat > contoh
+  266  cat contoh
+  267  cat > contoh2
+  268  cat contoh contoh2 > sample
+  269  cat sample
+  270  ls
+  271  rm sample contoh contoh2
+  272  ls
+  273  cd ../
+  274  cat > contoh
+  275  cat contoh
+  276  ls
+  277  sudo mv contoh /Dev
+  278  ls
+  279  cd Dev
+  280  ls
+  281  cd ../
+  282  ls
+  283  /Dev
+  284  cd /Dev
+  285  cd Dev
+  286  cd ../
+  287  cat contoh
+  288  cat > contoh
+  289  ls
+  290  sudo mv contoh /home/cahyo/Dev
+  291  ls
+  292  cd Dev
+  293  ls
+  294  mkdir dir1
+  295  ls
+  296  rmdir dir1
+  297  ls
+  298  mkdir dir1
+  299  ls
+  300  mv dir1 dirnew
+  301  ls
+  302  man
+  303  man man
+  304  history

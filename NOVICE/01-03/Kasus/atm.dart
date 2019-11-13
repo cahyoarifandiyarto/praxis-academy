@@ -1,7 +1,6 @@
 import 'dart:io';
 
 void main() {
-    var scanner;
     int select = 0;
     int choice = 0;
 
@@ -59,128 +58,6 @@ void main() {
         choice = int.parse(stdin.readLineSync());
       } while(choice > 2);
     } while(choice <= 1);
-
-    // do {
-    //   print("\tPlease select ATM Transactions");
-    //   print("\tPress [1] Deposit");
-    //   print("\tPress [2] Withdraw");
-    //   print("\tPress [3] Balance Inquiry");
-    //   print("\tPress [4] Exit");
-
-    //   // print("\n\tWhat would you like to do?");
-    //   stdout.write("What would you like to do?");
-    //   scanner = int.parse(stdin.readLineSync());
-    //   select = scanner;
-
-    //   if(select > 4) {
-    //     print("Please select correct transaction");
-    //   } else {
-    //     switch(select) {
-    //       case 1:
-    //         print("Enter the amount of money to deposit");
-    //         Deposit.deposit = int.parse(stdin.readLineSync());
-    //         BalanceInquiry.balance = Deposit.deposit + BalanceInquiry.balance;
-    //         ATMMachine.depositMoney();
-    //         break;
-
-    //       case 2:
-    //         print("To withdraw, make sure that you have sufficient balance in your account.");
-    //         print("Enter amount of money to withdraw");
-    //         Withdraw.withdraw = int.parse(stdin.readLineSync());
-    //         ATMMachine.withdrawMoney();
-    //         break;
-
-    //       case 3:
-    //         ATMMachine.checkBalance();
-    //         break;
-
-    //       default:
-    //         print("Transaction exited");
-    //         break;
-    //     }
-    //   }
-    // } while(select > 4);
-    // do {
-    //   print("Would you like to try another transactions?");
-    //   print("Press [1] Yes Press [2] No");
-    //   stdout.write("Enter choice: ");
-    //   choice = scanner;
-
-    //   if (choice > 2) {
-    //     print("Please select correct choice");
-    //   }
-    // } while(choice > 2);
-
-
-    // do {
-    //   try {
-    //     do {
-    //       print("\tPlease select ATM Transactions");
-    //       print("\tPress [1] Deposit");
-    //       print("\tPress [2] Withdraw");
-    //       print("\tPress [3] Balance Inquiry");
-    //       print("\tPress [4] Exit");
-
-    //       print("\n\tWhat would you like to do?");
-    //       scanner = int.parse(stdin.readLineSync());
-    //       select = scanner;
-
-    //       if(select > 4) {
-    //         print("\n\tPlease select correct transaction");
-    //       } else {
-    //         switch(select) {
-    //           case 1:
-    //             print("\n\tEnter the amount of money to deposit");
-    //             Deposit.deposit = scanner;
-    //             BalanceInquiry.balance = Deposit.deposit + BalanceInquiry.balance;
-    //             ATMMachine.depositMoney();
-    //             break;
-              
-    //           case 2:
-    //             print("\n\tTo withdraw, make sure that you have sufficient balance in your account");
-    //             print("\tEnter amount of money to withdraw");
-    //             Withdraw.withdraw = scanner;
-    //             ATMMachine.withdrawMoney();
-    //             break;
-              
-    //           case 3:
-    //             ATMMachine.checkBalance();
-    //             break;
-
-    //           default:
-    //             print("\n\tTransaction exited");
-    //             break;
-    //         }
-    //       }
-    //     } while(select > 4);
-
-    //     do {
-    //       try {
-    //         print("\n\tWould you like to try another tansaction?");
-    //         print("\n\tPress [1] Yes \n\tPress[2] No");
-    //         print("\tEnter choice");
-    //         choice = scanner;
-
-    //         if(choice > 2) {
-    //           print("\n\tPlease select correct choice.");
-    //         }
-    //       }
-    //       catch(e) {
-    //         print("\tError Input! Please enter a number only" + e);
-    //         scanner = int.parse(stdin.readLineSync());
-    //         print("\tEnter your choice");
-    //         choice = scanner;
-    //       }
-    //     } while(choice > 2);
-    //   }
-    //   catch(e) {
-    //     print("\tError Input! Please enter a number only");
-    //     scanner = int.parse(stdin.readLineSync());
-    //     print("\tEnter your choice");
-    //     select = scanner;
-    //   }
-    // } while(choice <= 1);
-    // print("\n\tThank you for using this simple ATM Machine");
   }
 
 class ATMMachine {

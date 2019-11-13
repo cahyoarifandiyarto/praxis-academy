@@ -14,8 +14,9 @@ main() {
         min = a[i];
       }
     }
-    print(maxDiff);
-    print(min);
+    // print(maxDiff);
+    // print(min);
+    print("$maxDiff $min");
   }
 
   maxDifference(myArr);

@@ -1,10 +1,10 @@
 # Tampilan
-![](/WhatsApp&#32;Image&#32;2019-11-19&#32;at&#32;22.36.21.jpeg)
-![](/WhatsApp&#32;Image&#32;2019-11-19&#32;at&#32;22.36.21&#32;(1).jpeg)
-![](/WhatsApp&#32;Image&#32;2019-11-19&#32;at&#32;22.36.21&#32;(2).jpeg)
-![](/WhatsApp&#32;Image&#32;2019-11-19&#32;at&#32;22.36.21&#32;(3).jpeg)
-![](/WhatsApp&#32;Image&#32;2019-11-19&#32;at&#32;22.36.21&#32;(4).jpeg)
-![](/WhatsApp&#32;Image&#32;2019-11-19&#32;at&#32;22.36.21&#32;(5).jpeg)
+![Gambar pertama](https://github.com/cahyoarifandiyarto/praxis-academy/blob/master/NOVICE/02-02/WhatsApp%20Image%202019-11-19%20at%2022.36.21.jpeg)
+![Gambar kedua](https://github.com/cahyoarifandiyarto/praxis-academy/blob/master/NOVICE/02-02/WhatsApp%20Image%202019-11-19%20at%2022.36.21%20(1).jpeg)
+![Gambar ketiga](https://github.com/cahyoarifandiyarto/praxis-academy/blob/master/NOVICE/02-02/WhatsApp%20Image%202019-11-19%20at%2022.36.21%20(2).jpeg)
+![Gambar keempat](https://github.com/cahyoarifandiyarto/praxis-academy/blob/master/NOVICE/02-02/WhatsApp%20Image%202019-11-19%20at%2022.36.21%20(3).jpeg)
+![Gambar kelima](https://github.com/cahyoarifandiyarto/praxis-academy/blob/master/NOVICE/02-02/WhatsApp%20Image%202019-11-19%20at%2022.36.21%20(4).jpeg)
+![Gambar keenam](https://github.com/cahyoarifandiyarto/praxis-academy/blob/master/NOVICE/02-02/WhatsApp%20Image%202019-11-19%20at%2022.36.21%20(5).jpeg)
 
 # Penjelasan Logic :
 1. Flutter: Stateless Widget:

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "447256204081",
+    "firebase_url": "https://chat-app-761ad.firebaseio.com",
+    "project_id": "chat-app-761ad",
+    "storage_bucket": "chat-app-761ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447256204081:android:20c78e76e7a431590a5610",
+        "android_client_info": {
+          "package_name": "com.praxis_academy.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447256204081-6ergrvdhrmgo4vkg2jt46tpqddrir58v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5Fzh598AUfzZRsEpbP02hM__vv2S8JIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "447256204081-6ergrvdhrmgo4vkg2jt46tpqddrir58v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
